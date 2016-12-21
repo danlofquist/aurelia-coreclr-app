@@ -9,7 +9,7 @@ export class App {
 
   configureRouter(config, router) {
 
-    config.title = 'Aurelia/Node boilerplate';
+    config.title = 'Aurelia/coreclr boilerplate';
     config.map([
       { route: ['', 'home'], name: 'home', moduleId: 'home/index', nav: true },
     ]);
